@@ -2,36 +2,51 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-  <title>My Website!</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-  <meta name="description" content="My Website">
-  <meta name="author" content="My Name">
+  	<title>My Website!</title>
+  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  	<meta name="description" content="My Website">
+  	<meta name="author" content="My Name">
 
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<!--Specify the css file-->
+  	<link rel="stylesheet" href="style.css">
+  	<!-- Boxicons CDN Link -->
+	<link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+	<!--Include the bootstrap to have rendering on all devices-->
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
 </head>
 
 <body>
+	<!-- Inizia container del navigation bar -->
+	<nav>
+		<img src="pics/logo.PNG" width="60px" height="40px" id=logo alt="Logo image" style="margin-left: 10px;" />
+		<div class="navbar">
+			<ul class="links"></ul>
+				<li><a href="about.html">About me</li>
+				<li>
+					<a href="#">Destinations</a>
+					<i class="bx bxs-chevron-down htmlcss-arrow arrow   "></i>
+					<ul class="htmlCss-sub-menu sub-menu"></ul>
+						<li><a href="#">Denmark</li>
+						<li><a href="#">Spain</li>
+						<li><a href="#">Workaway</li>
+				</li>
+				<li><a href="#">Contacts</li>
+			<div class="search-box">
+				<i class="bx bx-search"></i>
+				<div class="input-box">
+					<input type="text" placeholder="Search...">
+				</div>
+			</div>
+		</div>
+	</nav>
+	<script src="script.js"></script>
   <div class="container">
 	<div class="inner">
   <div class="content">
 	  <h1>Welcome to my personal website!</h1>
 	  <h2>Tagline about me.</h2>
 	  <p>
-	      Some more information about my life.
-	      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-	  	  Duis ullamcorper arcu vel libero feugiat, quis pretium ipsum ornare. Etiam nec auctor lectus.
-	  	  Quisque ut augue vitae nisi finibus interdum. Fusce varius convallis leo, quis efficitur ante aliquet vel.
-	      Fusce vulputate erat tincidunt nulla mollis, eget pharetra erat egestas.
-	      Mauris ante eros, malesuada tristique placerat commodo, ultrices in ante.
-	      Mauris tempor mi nibh, id sodales orci vestibulum sed. 
 	  </p>
-      <a href="./about"><h2>About me</h2></a>
-	  <a href="http://twitter.com/"><i class="fa fa-twitter fa-4x"></i></a>
-	  <a href="http://stackoverflow.com/"><i class="fa fa-stack-overflow fa-4x"></i></a>
-	  <a href="http://github.com/"><i class="fa fa-github fa-4x"></i></a>
-	  <a href="http://youtube.com/"><i class="fa fa-youtube fa-4x"></i></a>
-	  <a href="http://soundcloud.com/"><i class="fa fa-soundcloud fa-4x"></i></a>
 	</div>
   </div>
   </div>

@@ -1,5 +1,7 @@
 /* Font used for all text in the container */
 @import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+/* Googlefont Poppins CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 /* Reset margins and fill entire space */
 html, body, .container {
@@ -10,16 +12,54 @@ html, body, .container {
 
 body {
 	/* Background image for the page */
-	background: #254463 url('background.jpeg') no-repeat center center fixed;
+	/*background: #fff8ed no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	
 	/* Page color and font */
-	color: #FFF;
+	color: #fff8ed;
 	font-family: 'Slabo 27px', serif;
 }
+
+nav{
+	position: fixed;
+	top: 0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:#DBCBAD;
+	box-shadow:0 1px 2px rgb(204, 199, 190);
+	z-index: 99;
+}
+
+nav .navbar{
+	height: 100%;
+	max-width: 1250px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin:auto; 
+}
+
+ul li {
+	position: relative;
+	margin: 0 20px;
+	list-style: none;
+	display: inline-block;
+	padding: 14px;
+	font-size: 17px;
+  }
+  ul li a{
+  text-decoration: none; 
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  }
+  ul li a:hover {
+	 background-color: rgb(129, 123, 123);
+  }
 
 /* Contains the main content, limits its width, and centers the content */
 .container {
@@ -34,7 +74,7 @@ body {
 }
 
 /* Another container for adding a darkened background and making it fill the entire height */
-.container .inner {
+/*.container .inner {
 	height: 100%;
 	background: rgba(0, 0, 0, 0.6);
 	display: table-row;  
