@@ -12,14 +12,14 @@ html, body, .container {
 
 body {
 	/* Background image for the page */
-	/*background: #fff8ed no-repeat center center fixed;
+	background: #fff8ed no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	
 	/* Page color and font */
-	color: #fff8ed;
+	color: Black;
 	font-family: 'Slabo 27px', serif;
 }
 /*
@@ -35,14 +35,21 @@ nav{
 }
 */
 nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: #DBCBAD;
+	justify-content: space-between;
+	overflow: auto;
   }
   
   nav li {
-	display: inline-block;
 	position: relative;
+	margin: 0 20px;
+	list-style: none;
+	display: inline-block;
+	padding: 14px;
+	font-size: 17px;
   }
   
   nav li a {
@@ -55,7 +62,7 @@ nav ul {
   nav .dropdown-menu {
 	display: none;
 	position: absolute;
-	background-color: #fff;
+	background-color: #DBCBAD;
 	border: 1px solid #ccc;
 	padding: 0;
   }
