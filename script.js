@@ -1,38 +1,14 @@
-// search-box open lose js code 
-let navbar = docuemnt.querySelector(".navbar");
-let searchBox = document.querySelector(".search-box .bx-search");
-// let searchBoxCancel = document.quertSelector(".search-box .bx-x");
+const dropdownItems = document.getElementsByClassName('dropdown');
 
-searchBox.addEventListener("click", ()=>{
-    navbar.classList.toggle("showInput");
-    if(navbar.classList.contains("showInput")){
-        searchBox-classList.replace("bx-search", "bx-x");
-    }else {
-        searchBox.classList.replace("bx-x", "bx-search")
-    }
-});
-
-// sidebar open close js cpde 
-let navLinks = document.querySelector(".nav-links");
-let menuOpenBtn = document.querySelector(".navbar .bx-menu");
-let menuCloseBtn = document.querySelector(".nav-links .bx-x");
-menuOpenBtn.onclick = function() {
-    navLinks.computedStyleMap.left = "0";
-}
-menuCloseBtn.onclick = function() {
-    navLinks.computedStyleMap.left = "-100%"
-}
-
-// sidebar submenu open close js code
-let htmclcssArrow = document.querySelector(".htmlcss-arrow");
-htmclcssArrow.onclick = function() {
-    navLinks.classList.toggle("show1");
-}
-let htmclcssArrow = document.querySelector(".more-arrow");
-htmclcssArrow.onclick = function() {
-    navLinks.classList.toggle("show2");
-}
-let htmclcssArrow = document.querySelector(".js-arrow");
-htmclcssArrow.onclick = function() {
-    navLinks.classList.toggle("show3");
+for (let i = 0; i < dropdownItems.length; i++) {
+  const dropdownItem = dropdownItems[i];
+  const dropdownMenu = dropdownItem.getElementsByClassName('dropdown-menu')[0];
+  
+  dropdownItem.addEventListener('mouseover', function() {
+    dropdownMenu.style.display = 'block';
+  });
+  
+  dropdownItem.addEventListener('mouseout', function() {
+    dropdownMenu.style.display = 'none';
+  });
 }

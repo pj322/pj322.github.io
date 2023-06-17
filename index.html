@@ -18,28 +18,19 @@
 <body>
 	<!-- Inizia container del navigation bar -->
 	<nav>
-		<img src="pics/logo.PNG" width="80px" height="40px" id=logo alt="Logo image" style="margin-left: 10px;" />
-		<div class="navbar">
-			<ul class="links"></ul>
-				<li><a href="about.html">About me</li>
-				<li>
-					<a href="#">Destinations</a>
-					<i class="bx bxs-chevron-down htmlcss-arrow arrow   "></i>
-					<ul class="htmlCss-sub-menu sub-menu"></ul>
-						<li><a href="#">Denmark</li>
-						<li><a href="#">Spain</li>
-						<li><a href="#">Workaway</li>
-				</li>
-				<li><a href="#">Contacts</li>
-			<div class="search-box">
-				<i class="bx bx-search"></i>
-				<div class="input-box">
-					<input type="text" placeholder="Search...">
-				</div>
-			</div>
-		</div>
-	</nav>
-	<script src="script.js"></script>
+		<ul>
+		  <li><a href="about.html">About</a></li>
+		  <li class="dropdown">
+			<a href="#">Destinations</a>
+			<ul class="dropdown-menu">
+			  <li><a href="#">Denmark</a></li>
+			  <li><a href="#">Spain</a></li>
+			  <li><a href="#">Service 3</a></li>
+			</ul>
+		  </li>
+		  <li><a href="#">Contact</a></li>
+		</ul>
+	  </nav>	  
   <div class="container">
 	<div class="inner">
   <div class="content">
@@ -51,4 +42,6 @@
   </div>
   </div>
 </body>
+<!--HTML content is loaded before executing any JavaScript code-->
+<script src="script.js"></script>
 </html>
