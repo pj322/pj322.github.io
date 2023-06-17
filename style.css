@@ -19,7 +19,7 @@ body {
 	background-size: cover;
 	
 	/* Page color and font */
-	color: Black;
+	color: #2273F3;
 	font-family: 'Slabo 27px', serif;
 }
 /*
@@ -61,7 +61,7 @@ nav ul {
   
   nav .dropdown-menu {
 	display: none;
-	position: absolute;
+	position:relative;
 	background-color: #DBCBAD;
 	border: 1px solid #ccc;
 	padding: 0;
