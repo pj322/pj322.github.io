@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Paola Jakuza Portfolio</title>
-    <!-- MDB icon -->
-    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!--icon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -25,17 +26,17 @@
     <!--css custom-->
     <link rel="stylesheet" href="custom.css">
 
-
+    <!--
     <style>
       [class*="col"] {
       border: 2px solid #fff;
       color: #fff;
-    }
+    }-->
     </style>
   </head>
   <body>
   <!--Main Navigation-->
-    <header class="mb-5 mb-lg-7">
+    <header class="mb-5 mb-lg-7" id="header-section">
       <nav style="z-index:1; min-height: 58.59px;" class="navbar navbar-expand-lg navbar-dark sticky-top" >
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
@@ -46,29 +47,29 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Navbar brand -->
             <a class="navbar-brand mt-2 mt-lg-0" href="#">
-              <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp" height="15" alt="MDB Logo"
+              <img src="img/logo.png" height="30" alt="Paola's Logo"
                 loading="lazy" />
             </a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#header-section">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about-section">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
+                <a class="nav-link" href="#skills-section">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Education</a>
+                <a class="nav-link" href="#education-section">Education</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" href="#portfolio-section">Portfolio</a>
               </li>
             </ul>
           </div>
           <div class="d-flex align-items-center">
-            <a class="text-light me-3" href="#" rel="nofollow" target="_blank">
+            <a class="text-light me-3" href="mailto:paola.jakuza@gmail.com" rel="nofollow">
               <i class="fa fa-envelope" aria-hidden="true"></i>
             </a>
             <a class="text-light me-3" href="https://www.linkedin.com/in/paola-jakuza-2734881b9/" rel="nofollow" target="_blank">
@@ -88,9 +89,9 @@
             <div class="container d-flex justify-content-center align-items-center h-100">
               <!--Migliora margine per lo smartphone-->
               <div class="text-white text-center mt-sm-3">
-                <h3 class="mb-3">Ciao, sono Paola</h3>
+                <h3 class="pt-2 pt-md-0 mb-3">Ciao, sono Paola</h3>
                 <h1 class="mb-3">Trasformo idee <br> in applicazioni web</h1>
-                <button type="button" class="btn btn-light btn-rounded">Contattami</button>
+                <a href="mailto:paola.jakuza@gmail.com"><button type="button" class="btn btn-light btn-rounded mb-3">Contattami</button></a>
               </div>
             </div>
           </div>
@@ -104,12 +105,12 @@
     <main>        
       <div class="container">
       <!--About section-->
-        <section class="about mb-5 mb-lg-7">
+        <section class="about mb-5 mb-lg-7" id="about-section">
           <div class="row">
-            <div class="col-md-6 col-lg-7 col-xl-6 col-xxl-6">
-              <img src="img/foto-pc-bis.JPG" class="img-fluid h-75 mx-auto d-block" alt="Lavoro al pc"/>
+            <div class="col-md-12 col-lg-7 col-xl-6 col-xxl-6">
+              <img src="img/foto-pc-bis.JPG" class="img-fluid h-100 mx-auto d-md-none d-lg-block" alt="Lavoro al pc"/>
             </div>
-            <div class="col-md-6 col-lg-5 col-xl-6 col-xxl-6">
+            <div class="col-md-12 col-lg-5 col-xl-6 col-xxl-6">
               <div class="container d-flex px-5 py-5">
                 <div class="text-white">
                   <h3>About Me</h3>
@@ -131,9 +132,10 @@
           </div>
         </section>
 
-        <!--Hard Skills-->
-        <section class="skills mb-5 mb-lg-7">              
-          <h2 class="text-white text-center mb-4">My <br> Skills</h2>
+        <!--Skills-->
+        <section class="skills mb-5 mb-lg-7" id="skills-section">              
+          <h2 class="text-white text-center">My</h2>
+          <h1 class="text-white text-center mb-4"><strong>Skills</strong></h1>
           <div class="row">
             <div class="col-md-6 mb-5 mb-md-0">
               <p class="pt-md-4">
@@ -146,7 +148,7 @@
               <br>
               Utilizzo Git e Github per versionare il codice. Un altr strumento che utilizzo è il Chrome Developer Tool.
               </p>
-              <button type="button" class="btn btn-light btn-rounded">Cartella Github</button>
+              <a href="https://github.com/pj322" target="_blank"><button type="button" class="btn btn-light btn-rounded">Cartella Github</button></a>
             </div>
             <div class="col-md-6 mb-5 mb-md-0">
               <div class="row gy-4">
@@ -154,7 +156,7 @@
                   <div class="skill-element">
                     <h4>HTML</h4>
                     <div class="progress" style="height: 20px;">
-                      <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
                 </div>
@@ -170,7 +172,7 @@
                   <div class="skill-element">
                     <h4>Bootstrap/MDBootstrap</h4>
                     <div class="progress" style="height: 20px;">
-                      <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
                 </div>
@@ -186,7 +188,7 @@
                   <div class="skill-element">
                     <h4>Git/Github</h4>
                     <div class="progress" style="height: 20px;">
-                      <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
                 </div>
@@ -195,8 +197,9 @@
           </div>
         </section>
 
-        <section class="Education mb-5 mb-lg-7">
-          <h2 class="text-white text-center mb-4">My <br> Education &amp; Experiences</h2>
+        <section class="Education mb-5 mb-lg-7" id="education-section">
+          <h2 class="text-white text-center">My</h2>
+          <h1 class="text-white text-center mb-4"><strong>Education &amp; Experiences</strong></h1>
           <div class="row mb-5">
             <!--Sezione education-->
             <div class="col-lg-6">
@@ -266,15 +269,23 @@
           </div>
         </section>
 
-        <section class="portfolio mb-5 mb-lg-7">
-          <h2 class="text-white mb-4">Portfolio</h2>
+        <section class="portfolio mb-5 mb-lg-7" id="portfolio-section">
+          <h2 class="text-white text-center">My</h2>
+          <h1 class="text-white text-center mb-4">Portfolio</strong></h1>
           <div class="row">
+            <div class="col-12 pb-3">
+              <p class="text-center">Questi sono i progetti sviluppati durante il corso in FullStack Development. Il codice è disponibile sulla mia repositery GitHub</p>
+              <div class="text-center">
+                <a href="https://github.com/pj322" target="_blank"><button type="button" class="btn btn-light btn-rounded">Cartella Github</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="row g-sm-4">
             <div class="col-xxl-3 col-lg-4 col-md-6">
               <div class="portfolio-img-container">
                 <img src="img/yt-project-2.PNG" class="img-fluid portfolio-img" alt="Youtube project thumbnail"/>
                   <div class="img-description">
                     <div class="text">Youtube Clone <br>
-                      <a href="https://github.com/pj322/youtube-clone">on Github <i class="fab fa-github"></i></a>
                     </div>
                   </div>
               </div>
@@ -285,7 +296,6 @@
                   <div class="img-description">
                     <div class="text">
                       Hotel Pomelia <br>
-                      <a href="https://github.com/pj322/hotel-pomelia">on Github <i class="fab fa-github"></i></a>
                     </div>
                   </div>
               </div>
@@ -301,60 +311,47 @@
       <div class="container p-4">
         <div class="row">
           <div class="col-md-6 col-lg-4">
-            <h5 class="text-uppercase">Socials</h5>
-
-            <ul class="list-unstyled mb-0">
-              <li>
-                <div class="d-flex flex-row">
-                  <a class="text-light me-3" href="#" rel="nofollow" target="_blank">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                  </a>
-                  <p>E-mail</p>
-                </div>
-              </li>
-              <li>
-                <div class="d-flex flex-row">
-                  <a class="text-light me-3" href="https://www.linkedin.com/in/paola-jakuza-2734881b9/" rel="nofollow" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                  </a>
-                  <p class="p-0">Linkedin</p>
-                </div>
-              </li>
-              <li>
-                <div class="d-flex flex-rpw">
-                  <a class="text-light me-3" href="https://github.com/pj322" rel="nofollow" target="_blank">
-                    <i class="fab fa-github"></i>
-                  </a> 
-                  <p>Github</p>
-                </div>
-              </li>
-            </ul>
+            <h5 class="text-uppercase text-center mb-3">Social</h5>
+            <div class="d-flex justify-content-center">
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <div class="d-flex flex-row">
+                    <a class="text-light me-3" href="mailto:paola.jakuza@gmail.com" rel="nofollow">
+                      <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </a>
+                    <p>E-mail</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex flex-row">
+                    <a class="text-light me-3" href="https://www.linkedin.com/in/paola-jakuza-2734881b9/" rel="nofollow" target="_blank">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                    <p class="p-0">Linkedin</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex flex-rpw">
+                    <a class="text-light me-3" href="https://github.com/pj322" rel="nofollow" target="_blank">
+                      <i class="fab fa-github"></i>
+                    </a> 
+                    <p>Github</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="col-md-6 col-lg-4">
-            <h5 class="">Collab</h5>
-            <p>Per collaborazioni o lavori contattami attraverso i socials o tramite il contact form.</p>
+            <h5 class="text-uppercase text-center mb-3">Collab</h5>
+            <p>Per collaborazioni o lavori contattami attraverso i social o tramite il contact form.</p>
           </div>
           <div class="col-md-12 col-lg-4">
-            <h5 class="">Contact Form</h5>
-            <form action="https://formsubmit.co/paola.jakuza@gmail.com" method="POST">
-              <!--Name-->
-              <div class="form-outline mb-4">
-                <input type="text" id="contactform1" class="form-control" required/>
-                <label class="form-label" for="contactform1">Name</label>
-              </div>
-
-              <!--Email-->
-              <div class="form-outline mb-4">
-                <input type="email" id="contactform2" class="form-control" required/>
-                <label class="form-label" for="contactform2">Email</label>
-              </div>
-
-              <!--Message-->
-              <div class="form-outline mb-4">
-                <textarea class="form-control" id="contactform3" rows="3" required></textarea>
-                <label class="form-label" for="contactform3">Message</label>
-              </div>
-              <button type="submit" class="btn btn-light btn-rounded btn-block mb-4">Send</button>
+            <h5 class="text-uppercase text-center mb-4">Contact Form</h5>
+            <form action="https://formspree.io/f/xwkdwgdo" method="POST">
+              <input type="text" name="Name" class="form-control mb-4" placeholder="Full Name">
+              <input type="text" name="mail" class="form-control mb-4" placeholder="Your Email">
+              <textarea name="message" class="form-control mb-4" rows="4" placeholder="Message"></textarea>
+              <button type="submit" name="submit" class="btn btn-light btn-rounded btn-block mb-3">SEND E-MAIL</button>
             </form>
           </div>
         </div>
