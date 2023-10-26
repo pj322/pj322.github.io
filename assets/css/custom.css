@@ -1,0 +1,124 @@
+body {
+  background-color: rgb(12, 12, 41);
+  height: 100%;
+  color: white;
+}
+
+header {
+  background: linear-gradient(336deg, rgba(45, 39, 255,0.9),rgba(255,0,0,0)),
+  linear-gradient(217deg, rgba(255, 0, 91,0.9),rgba(255,0,0,0));
+}
+
+.navbar {
+  background-color: rgb(12,12,41);
+}
+
+.circle {
+  background-color: white;
+  border-radius: 50%;
+  height: 1.3rem;
+  width: 1.3rem;
+  border: 3px solid white;
+}
+
+.circle-e {
+  border-radius: 50%;
+  height: 1.3rem;
+  width: 1.3rem;
+  border: 2px solid white;
+}
+
+/*Education*/
+.card {
+  background: linear-gradient(135deg, rgb(101, 54, 177),rgba(255, 32, 121, 0.6));
+  color: white;
+}
+
+/*Skills*/
+.progress {
+  height: 20px;
+}
+
+.first-bar{
+  width: 70%;
+}
+
+.second-bar{
+  width: 65%;
+}
+
+.third-bar{
+  width: 60%;
+}
+
+.fourth-bar{
+  width: 65%;
+}
+
+.fifth-bar{
+  width: 45%;
+}
+
+.sixth-bar {
+  width: 30%;
+}
+
+.seventh-bar {
+  width: 30%;
+}
+
+/*Portfolio*/
+.portfolio-img-container {
+  position: relative;
+}
+
+.portfolio-img {
+  border-radius: 10px;
+  transition: 0.2s opacity;
+}
+
+.portfolio-img:hover {
+  opacity: 0.3;
+}
+
+.img-description {
+  position: absolute;
+  right: 7.5rem;
+  bottom: 8rem;
+  opacity: 0;
+}
+
+.portfolio-img-container:hover .img-description,
+.portfolio-img-container:hover .img-description .text{
+  opacity: 1;
+}
+
+.text:hover .portfolio-img {
+  opacity: 0.3;
+}
+
+.progress-bar {
+  background: blueviolet;
+}
+
+.form-row {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
+.form-row input[type='text'] {
+  background-color: #FFFFFF;
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+}
+
+.form-row label {
+  margin-bottom: 15px;
+}
