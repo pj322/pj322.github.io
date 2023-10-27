@@ -29,21 +29,29 @@
     />
     <!--css custom-->
     <link rel="stylesheet" href="../assets/css/custom.css">
+    <link rel="stylesheet" href="../assets/css/cv.css">
     <!--Open Graph Tags-->
     <meta property="og:title" content="Paola Jakuza's Curriculum Vitae">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://pj322.github.io/img/foto-pc.jpg">
+    <meta property="og:image" content="https://pj322.github.io/assets/img/copertina.png">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="400">
     <meta property="og:image:height" content="300">
-    <meta property="og:image:alt" content="Paola Jakuza's photo working on pc">
+    <meta property="og:image:alt" content="Copertina sito portfolio">
     <meta property="og:url" content="https://pj322.github.io/">
     <meta property="og:description" content="Curriculum Vitae della web developer Paola Jakuza">
+    <!--
+    <style>
+    [class*="col"] {
+      padding: 1rem; /*16 px*/
+      border: 2px solid blueviolet;
+    }
+  </style>-->
   </head>
   <body>
     <!--Main navigation-->
-    <header class="mb-5 mb-lg-7" id="header-section">
-      <nav style="z-index:1; min-height: 58.59px;" class="navbar navbar-expand-lg navbar-dark sticky-top" >
+    <header id="header-section">
+      <nav class="navbar navbar-expand-lg navbar-dark sticky-top" >
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
             data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -87,178 +95,238 @@
     </header>
 
     <main>
-      <div class="container">
-        <h1>Paola Jakuza CV</h1>
-        <section class="Education mb-5 mb-lg-7" id="education-section">
-          <div class="row mb-5">
-            <!--Sezione education-->
-            <div class="col-lg-12">
-              <div class="row">
-                <div class="col-12">
-                  <h4>Education</h4>
+      <div class="container cv-box px-lg-5 pt-5">
+        <div class="row mb-5">            
+          <!--Immagine e nome e cognome-->
+          <div class="col-4">
+            <div class="img-box">
+              <img class="foto-cv img-fluid" src="../assets/img/foto-cv.jpg"/>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="description-cv">
+              <h3>Paola Jakuza <br><span>Web Developer</span></h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="row mb-3">
+              <div class="col-12">
+                <h3 class="section-cv ps-2">Contacts</h3>
+                <div class="contacts d-flex justify-content-start">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <div class="d-flex flex-row">
+                        <a class="text-light me-3" href="mailto:paola.jakuza@gmail.com" rel="nofollow">
+                          <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </a>
+                        <p>E-mail</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex flex-row">
+                        <a class="text-light me-3" href="https://www.linkedin.com/in/paola-jakuza-2734881b9/" rel="nofollow" target="_blank">
+                          <i class="fab fa-linkedin"></i>
+                        </a>
+                        <p class="p-0">Linkedin</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex flex-rpw">
+                        <a class="text-light me-3" href="https://github.com/pj322" rel="nofollow" target="_blank">
+                          <i class="fab fa-github"></i>
+                        </a> 
+                        <p>Github</p>
+                      </div>
+                    </li>
+                  </ul>
                 </div>
               </div>
-              <div class="row gx-3">
-                <div class="col-sm-12">
-                  <div class="card mb-2">
-                    <div class="card-body">
-                      <div class="d-flex justify-content-between">
-                        <div class="date-cv">09/2023 - ora</div>
-                        <div class="what-cv">Master in FullStack Development</div> 
-                        <div class="where-cv">Start2Impact University</div> 
-                      </div>
-                      <p style="margin-bottom: 0px;">Master in sviluppo web</p>
+            </div>
+            <div class="row mb-3">
+              <div class="col-12">
+                <h3 class="section-cv ps-2">Languages</h3>
+                <div class="languages">
+                  <div class="language-element mb-3">
+                    <h6>Italian</h6>
+                    <div class="progress">
+                      <div class="progress-bar first-bar-lang" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
-                </div>
-                <div class="col-sm-12">
-                  <div class="card mb-2">
-                    <div class="card-body">
-                      <div class="d-flex justify-content-between">
-                        <div class="date-cv">2020 - 2022</div>
-                        <div class="what-cv">Laurea Magistrale in Ingegneria Elettronica</div> 
-                        <div class="where-cv">Università degli Studi di Padova</div> 
-                      </div>
-                      <p style="margin-bottom: 0px;">110/110</p>
+                  <div class="language-element mb-3">
+                    <h6>Albanian</h6>
+                    <div class="progress">
+                      <div class="progress-bar second-bar-lang" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
-                </div>
-                <div class="col-sm-12">
-                  <div class="card mb-2">
-                    <div class="card-body">
-                      <div class="d-flex justify-content-between">
-                        <div class="date-cv">2017 - 2020</div>
-                        <div class="what-cv">Laurea in Ingegneria dell'Informazione</div> 
-                        <div class="where-cv">Università degli Studi di Padova</div> 
-                      </div>                      
-                      <p style="margin-bottom: 0px;">100/110</p>
+                  <div class="language-element mb-3">
+                    <h6>English</h6>
+                    <div class="progress">
+                      <div class="progress-bar third-bar-lang" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <!--Experiences-->
-            <div class="col-lg-12">
-              <div class="row">
-                <div class="col-12">
-                  <h4>Experiences</h4>
-                </div>
-              </div>
-              <div class="row gx-3">
-                <div class="col-sm-12">
-                  <div class="card mb-2">
-                    <div class="card-body">
-                      <div class="d-flex justify-content-between">
-                        <div class="date-cv">02/2023 - 06/2023</div>
-                        <div class="what-cv">Test Specialist Engineer</div> 
-                        <div class="where-cv">Infineon Technologies</div> 
-                      </div>
-                      <p style="margin-bottom: 0px;">Sviluppo software per il testing di memorie non volatili per il mondo automotive</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-12">
-                  <div class="card mb-2">
-                    <div class="card-body">
-                      <div class="d-flex justify-content-between">
-                        <div class="date-cv">12/2022 - 02/2023</div>
-                        <div class="what-cv">Product/Test Jr Engineer</div> 
-                        <div class="where-cv">STMicroelectronics</div> 
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            <div class="row">
+              <div class="col-12">
+                <h3 class="section-cv ps-2">Interests</h3>
               </div>
             </div>
           </div>
-        </section>
-
-        <!--Skills-->
-        <section class="skills mb-5 mb-lg-7" id="skills-section">
-          <h2 class="text-white text-center">My</h2>
-          <h2 class="text-white text-center mb-4"><strong>Skills</strong></h2>
-          <div class="row">
-            <div class="col-md-6 mb-5 mb-md-0">
-              <p class="pt-md-4">
-              Al momento la mia formazione si sta concentrando sulla sezione front-end, dunque sull'utilizzo di HTML e CSS, in combinazione con il 
-              processore SCSS. <br>
-              In aggiunta a questi linguaggi, utilizzo le librerie CSS Bootstrap e MDBootstrap per garantire un'ottima responsività
-              del sito per tutti i tipi di dispositivi. <br>
-              <br>
-              Come linguaggio di programmazione extra, conosco Python che ho utilizzato nella mia seconda esperienza lavorativa. <br>
-              <br>
-              Utilizzo Git e Github per versionare il codice. Un altro strumento che utilizzo è il Chrome Developer Tool. <br>
-              <br>
-              Ho avuto modo di studiare Java a livello universitario, così come C++ che poi ho applicato nelle mie esperienze lavorative.
-              </p>
-              <a href="https://github.com/pj322" target="_blank"><button type="button" class="btn btn-light btn-rounded">Cartella Github</button></a>
+          <div class="col-8">
+            <div class="row mb-3">
+              <div class="col-12">
+                <h3 class="section-cv ps-2">Profile</h3>
+                <p>Alla ricerca di un'opportunità come web developer dopo aver lavorato nel 
+                  settore dell'ingegneria elettronica.
+                  Appassionata di tecnologia, voglio trasformare le idee in prodotti digitali. 
+                  Sono precisa, organizzata e proattiva.
+                </p>
+              </div>
             </div>
-            <div class="col-md-6 mb-5 mb-md-0">
-              <div class="row gy-4">
-                <div class="col-md-12">
-                  <div class="skill-element">
-                    <h4>HTML</h4>
+            <div class="row mb-3">
+              <div class="col-12">
+                <h3 class="section-cv ps-2">Education</h3>
+                <div class="row mb-3">
+                  <div class="col-4 pt-0">
+                    <div class="education-info">
+                      <div class="education-data">09/2023 - ora</div>
+                      <div class="education-company">Start2Impact</div>
+                    </div>
+                  </div>
+                  <div class="col-8 pt-0">
+                    <div class="education-info">
+                      <div class="education-title">Master Full Stack Development</div>
+                      <div class="education-description">Acquisizione skills front-end e back-end. Tecnologie studiate: HTML, CSS, JavaScript, React, PHP e MySQL.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col-4 pt-0">
+                    <div class="education-info">
+                      <div class="education-data">08/2020 - 10/2022</div>
+                      <div class="education-company">Università degli Studi di Padova</div>
+                    </div>
+                  </div>
+                  <div class="col-8 pt-0">
+                    <div class="education-info">
+                      <div class="education-title">Laurea Magistrale in Ingegneria Elettronica</div>
+                      <div class="education-description"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col-4 pt-0">
+                    <div class="education-info">
+                      <div class="education-data">02/2022 - 06/2022</div>
+                      <div class="education-company">Aalborg University</div>
+                    </div>
+                  </div>
+                  <div class="col-8 pt-0">
+                    <div class="education-info">
+                      <div class="education-title">Erasmus+ for Study</div>
+                      <div class="education-description">Sviluppo tesi magistrale in Danimarca. Lavoro di laboratorio
+                        consistente in misure dell'intensità di un fascio laser.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-4 pt-0">
+                    <div class="education-info">
+                      <div class="education-data">2017 - 2020</div>
+                      <div class="education-company">Università degli Studi di Padova</div>
+                    </div>
+                  </div>
+                  <div class="col-8 pt-0">
+                    <div class="education-info">
+                      <div class="education-title">Laurea in Ingegneria dell'Informazione</div>
+                      <div class="education-description">Conoscenza teorica delle discipline dell'informazione: informatica, elettronica, 
+                        telecommunicazioni, automazione.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-12">
+                <h3 class="section-cv ps-2">Experiences</h3>
+                <div class="row mb-3">
+                  <div class="col-4 pt-0">
+                    <div class="education-info">
+                      <div class="education-data">03/2023 - 06/2023</div>
+                      <div class="education-company">Infineon Technologies</div>
+                    </div>
+                  </div>
+                  <div class="col-8 pt-0">
+                    <div class="education-info">
+                      <div class="education-title">Junior Test Engineer</div>
+                      <div class="education-description">Sviluppo software in C++ per testare microchip nel settore automotive.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-4 pt-0">
+                    <div class="education-info">
+                      <div class="education-data">12/2022 - 02/2023</div>
+                      <div class="education-company">STMicroelectronics</div>
+                    </div>
+                  </div>
+                  <div class="col-8 pt-0">
+                    <div class="education-info">
+                      <div class="education-title">Product/Test Jr Engineer</div>
+                      <div class="education-description">Sviluppo software in C++ e schede elettroniche per il testing di microchip.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <h3 class="section-cv ps-2">IT Skills</h3>
+              <div class="col-11">
+                <div class="skills">
+                  <div class="skill-element mb-3">
+                    <h6>HTML</h6>
                     <div class="progress">
                       <div class="progress-bar first-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="skill-element">
-                    <h4>CSS</h4>
+                  <div class="skill-element mb-3">
+                    <h6>CSS</h6>
                     <div class="progress">
-                      <div class="progress-bar second-bar" role="progressbar"  aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar second-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="skill-element">
-                    <h4>Bootstrap/MDBootstrap</h4>
+                  <div class="skill-element mb-3">
+                    <h6>Python</h6>
                     <div class="progress">
-                      <div class="progress-bar third-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar third-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="skill-element">
-                    <h4>Python</h4>
+                  <div class="skill-element mb-3">
+                    <h6>Java</h6>
                     <div class="progress">
-                      <div class="progress-bar fourth-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar fourth-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="skill-element">
-                    <h4>Git/Github</h4>
+                  <div class="skill-element mb-3">
+                    <h6>C++</h6>
                     <div class="progress">
-                      <div class="progress-bar fifth-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="skill-element">
-                    <h4>Java</h4>
-                    <div class="progress">
-                      <div class="progress-bar sixth-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="skill-element">
-                    <h4>C++</h4>
-                    <div class="progress">
-                      <div class="progress-bar seventh-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar fifth-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
+        </div>
       </div>
     </main>
 
-    <footer class="text-center text-lg-start" style="background-color: blueviolet;">
+    <footer class="text-center text-lg-start">
       <div class="container p-4">
         <div class="row">
           <div class="col-md-6 col-lg-4">
@@ -309,7 +377,7 @@
       </div>
 
       <!--Copyright-->
-      <div class="text-center p-3" style="background-color: hsla(0, 0%, 0%, 0.2);">
+      <div class="copyright text-center p-3">
         Made with <i class="fa fa-heart" aria-hidden="true"></i>
       </div>
     </footer>

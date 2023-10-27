@@ -1,0 +1,58 @@
+/*cv*/
+.cv-box {
+  background-color:  rgb(21, 21, 75);
+}
+
+.img-box {
+  display: flex;
+  justify-content: center;
+}
+.foto-cv {
+  border-radius: 50%;
+  width: 10rem;
+}
+
+.description-cv h3{
+  font-size: 3em;
+  letter-spacing: 0.1em;
+  line-height: 1.2em;
+  font-weight: 600;
+}
+
+.description-cv h3 span {
+  font-size: 0.5em;
+  font-weight: 300;
+  top: -10px;
+}
+
+.section-cv {
+  border-left: 4px solid blueviolet;
+}
+
+.education-data {
+  letter-spacing: 0.1em;
+}
+
+.education-title {
+  font-size: 1.2em;
+}
+
+.education-company {
+  font-size: 0.9em;
+}
+
+.contacts,
+.languages {
+  padding: 10px;
+}
+.first-bar-lang {
+  width: 100%;
+}
+
+.second-bar-lang {
+  width: 65%
+}
+
+.third-bar-lang {
+  width: 75%;
+}

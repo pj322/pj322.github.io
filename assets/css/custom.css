@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(12, 12, 41);
   height: 100%;
@@ -7,6 +13,11 @@ body {
 header {
   background: linear-gradient(336deg, rgba(45, 39, 255,0.9),rgba(255,0,0,0)),
   linear-gradient(217deg, rgba(255, 0, 91,0.9),rgba(255,0,0,0));
+}
+
+.nav {
+  z-index:1; 
+  min-height: 58.59px;
 }
 
 .navbar {
@@ -34,9 +45,23 @@ header {
   color: white;
 }
 
+.separator{
+  display:flex;
+  align-items: center;
+}
+
+.separator .line{
+  height: 3px;
+  flex: 1;
+  background-color: white;
+}
+
+.separator h2{
+  padding: 0 2rem;
+}
 /*Skills*/
 .progress {
-  height: 20px;
+  height: 10px;
 }
 
 .first-bar{
@@ -101,6 +126,11 @@ header {
   background: blueviolet;
 }
 
+/*Footer*/
+footer {
+  background-color: blueviolet;
+}
+
 .form-row {
   margin-bottom: 1rem;
   display: flex;
@@ -121,4 +151,8 @@ header {
 
 .form-row label {
   margin-bottom: 15px;
+}
+
+.copyright {
+  background-color: hsla(0, 0%, 0%, 0.2);
 }
