@@ -30,6 +30,7 @@
     <!--css custom-->
     <link rel="stylesheet" href="../assets/css/custom.css">
     <link rel="stylesheet" href="../assets/css/cv.css">
+    <link rel="stylesheet" href="../assets/css/portfolio.css">
     <!--Open Graph Tags-->
     <meta property="og:title" content="Paola Jakuza's Portfolio">
     <meta property="og:type" content="website">
@@ -43,7 +44,7 @@
   </head>
   <body>
     <!--Main navigation-->
-    <header class="mb-5 mb-lg-7" id="header-section">
+    <header id="header-section" class="mb-3">
       <nav class="navbar navbar-expand-lg navbar-dark sticky-top" >
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
@@ -91,35 +92,37 @@
       <div class="container">
         <!--Portfolio section-->
         <section class="portfolio mb-5 mb-lg-7" id="portfolio-section">
-          <h2 class="text-white mb-4">My Portfolio</strong></h2>
+          <h2 class="mb-4 portfolio-title">Portfolio</h2>
           <div class="row">
-            <div class="col-12 pb-3">
-              <p>Qui trovi una collezione dei miei lavori, sviluppati durante il corso in FullStack Development. Il codice è disponibile sulla mia repositery GitHub.</p>
-              <a href="https://github.com/pj322" target="_blank"><button type="button" class="btn btn-light btn-rounded">Cartella Github</button></a>
+            <div class="col-sm-12 col-md-6 col-xl-5">
+              <div class="portfolio-img-container">
+                <img src="../assets/img/pomelia-project.png" class="img-fluid portfolio-img" alt="Hotel Pomelia project thumbnail"/>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-7 description">
+              <div class="portfolio-img-description">
+                <h3>Hotel Pomelia</h3>
+                <p>Progetto introduttivo corso start2impact. Realizzato soddisfando i requisiti
+                richiesti per il progetto, ossia realizzazione di un sito landing page per 
+                un eco-hotel. Realizzato con HTML e CSS.</p>
+                <a href="https://github.com/pj322" target="_blank"><button type="button" class="btn btn-light btn-rounded">Cartella Github</button></a>
+              </div>
             </div>
           </div>
-          <div class="row g-4">
-            <div class="col-xxl-3 col-lg-4 col-md-6">
-              <div class="portfolio-img-container">
-                <img src="../assets/img/yt-project.png" class="img-fluid portfolio-img" alt="Youtube project thumbnail"/>
-                  <div class="img-description">
-                    <div class="text">Youtube Clone <br>
-                    </div>
-                  </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-xl-7 description order-sm-last order-md-first">
+              <div class="portfolio-img-description">
+                <h3>Youtube Clone</h3>
+                <p>Clone di Youtube responsivo. Realizzato tramite HTML e CSS. Sono state applicative varie tecniche 
+                  CSS, tra cui il modello flexbox, posizionamento avanzato, display griglia. </p>
+                  <a href="https://github.com/pj322" target="_blank"><button type="button" class="btn btn-light btn-rounded">Cartella Github</button></a>
               </div>
             </div>
-            <div class="col-xxl-3 col-lg-4 col-md-6">
+            <div class="col-sm-12 col-md-6 col-xl-5 order-sm-first order-md-last">
               <div class="portfolio-img-container">
-                <img src="../assets/img/pomelia-project.png" class="img-fluid portfolio-img" alt="hotel pomelia project thumbnail"/>
-                  <div class="img-description">
-                    <div class="text">
-                      Hotel Pomelia <br>
-                    </div>
-                  </div>
+                <img src="../assets/img/yt-project.png" class="img-fluid portfolio-img" alt="Youtube clone thumbnail"/>
               </div>
             </div>
-            <div class="col-xxl-3 col-lg-4 col-md-6"></div>
-            <div class="col-xxl-3 col-md-6"></div>
           </div>
         </section>
       </div>

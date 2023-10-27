@@ -1,0 +1,35 @@
+/*Portfolio*/
+.portfolio-title {
+  border-left: 4px solid blueviolet;
+  padding-left: 0.3em;
+}
+
+.portfolio-img-container {
+  position: relative;
+}
+
+.portfolio-img {
+  border-radius: 10px;
+  width: 30rem;
+  transition: 0.2s opacity;
+}
+
+.portfolio-img:hover {
+  opacity: 0.3;
+}
+
+.text:hover .portfolio-img {
+  opacity: 0.3;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.portfolio-img-description {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}

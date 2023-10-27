@@ -5,16 +5,12 @@
 }
 
 body {
-  background-color: rgb(12, 12, 41);
+  background-color: #0c0c29;
   height: 100%;
   color: white;
 }
 
-header {
-  background: linear-gradient(336deg, rgba(45, 39, 255,0.9),rgba(255,0,0,0)),
-  linear-gradient(217deg, rgba(255, 0, 91,0.9),rgba(255,0,0,0));
-}
-
+/*Navigation bar*/
 .nav {
   z-index:1; 
   min-height: 58.59px;
@@ -24,108 +20,62 @@ header {
   background-color: rgb(12,12,41);
 }
 
-.circle {
-  background-color: white;
-  border-radius: 50%;
-  height: 1.3rem;
-  width: 1.3rem;
-  border: 3px solid white;
+/*Header*/
+header {
+  background: linear-gradient(336deg, rgba(45, 39, 255,0.9),rgba(255,0,0,0)),
+  linear-gradient(217deg, rgba(255, 0, 91,0.9),rgba(255,0,0,0));
 }
 
-.circle-e {
-  border-radius: 50%;
-  height: 1.3rem;
-  width: 1.3rem;
-  border: 2px solid white;
+.header-title h1{
+  letter-spacing: 0.1em;
+  line-height: 1.2em;
+  font-weight: 600;
 }
 
-/*Education*/
-.card {
-  background: linear-gradient(135deg, rgb(101, 54, 177),rgba(255, 32, 121, 0.6));
-  color: white;
+.header-title h4{
+  font-weight: 300;
 }
 
-.separator{
-  display:flex;
+.header-title .details {
+  margin-top: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+.header-title .details h3 {
+  font-weight: 300;
+}
+/*About section*/
+.about-container {
+  display: flex;
   align-items: center;
 }
 
-.separator .line{
-  height: 3px;
-  flex: 1;
-  background-color: white;
+.about-title {
+  font-size: 2em;
+  border-left: 4px solid blueviolet;
+  padding-left: 0.3em;
 }
 
-.separator h2{
-  padding: 0 2rem;
-}
-/*Skills*/
-.progress {
-  height: 10px;
+.about-text {
+  line-height: 1.5em;
+  padding: 4% 5%;
 }
 
-.first-bar{
-  width: 70%;
+.about-text .citazione {
+  font-size: 1.2em;
+  font-weight: 200;
+  margin-top: 0.5%;
 }
 
-.second-bar{
-  width: 65%;
+.about-photo-box {
+  display: flex;
+  justify-content: center;
 }
 
-.third-bar{
-  width: 60%;
+.about-photo {
+  width: 30rem; 
+  border-radius: 5%;
 }
-
-.fourth-bar{
-  width: 65%;
-}
-
-.fifth-bar{
-  width: 45%;
-}
-
-.sixth-bar {
-  width: 30%;
-}
-
-.seventh-bar {
-  width: 30%;
-}
-
-/*Portfolio*/
-.portfolio-img-container {
-  position: relative;
-}
-
-.portfolio-img {
-  border-radius: 10px;
-  transition: 0.2s opacity;
-}
-
-.portfolio-img:hover {
-  opacity: 0.3;
-}
-
-.img-description {
-  position: absolute;
-  right: 7.5rem;
-  bottom: 8rem;
-  opacity: 0;
-}
-
-.portfolio-img-container:hover .img-description,
-.portfolio-img-container:hover .img-description .text{
-  opacity: 1;
-}
-
-.text:hover .portfolio-img {
-  opacity: 0.3;
-}
-
-.progress-bar {
-  background: blueviolet;
-}
-
 /*Footer*/
 footer {
   background-color: blueviolet;
