@@ -1,7 +1,11 @@
 /*Portfolio*/
+.portfolio {
+  font-size: 0.99rem;
+}
+
 .portfolio-title {
   border-left: 4px solid blueviolet;
-  padding-left: 0.3em;
+  padding-left: 0.3rem;
 }
 
 .portfolio-img-container {

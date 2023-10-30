@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;
 }
+
 .foto-cv {
   border-radius: 50%;
   width: 10rem;
@@ -19,17 +20,20 @@
   justify-content: center;
 }
 
-.description-cv h3{
-  font-size: 3em;
-  letter-spacing: 0.1em;
-  line-height: 1.2em;
-  font-weight: 600;
+.description-cv {
+  padding: 2rem 0;
 }
 
-.description-cv h3 span {
-  font-size: 0.5em;
+.description-cv h1{
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.description-cv h4 {
   font-weight: 300;
-  top: -10px;
+  letter-spacing: 0.2rem;
 }
 
 .section-cv {
@@ -60,15 +64,15 @@
 }
 
 .education-data {
-  letter-spacing: 0.1em;
-}
-
-.education-title {
-  font-size: 1.2em;
+  letter-spacing: 0.1rem;
 }
 
 .education-company {
-  font-size: 0.9em;
+  font-size: 0.9rem;
+}
+
+.education-description {
+  font-size: 0.95rem;
 }
 
 .contacts,

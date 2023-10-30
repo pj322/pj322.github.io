@@ -1,0 +1,68 @@
+/*Header*/
+header {
+  background: linear-gradient(336deg, rgba(45, 39, 255,0.9),rgba(255,0,0,0)),
+  linear-gradient(217deg, rgba(255, 0, 91,0.9),rgba(255,0,0,0));
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.header-title h1{
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+}
+
+.header-title h4{
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+}
+
+.header-title .details {
+  margin-top: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+.header-title .details h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.header-photo-container {
+  display: flex;
+  justify-content: center;
+}
+
+/*About section*/
+.about-container {
+  display: flex;
+  align-items: center;
+}
+
+.about-title {
+  font-size: 2rem;
+  border-left: 4px solid blueviolet;
+  padding-left: 0.4rem;
+}
+
+.about-text {
+  line-height: 1.7rem;
+  padding: 3% 5%;
+}
+
+.about-text .citazione {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.about-photo-box {
+  display: flex;
+  justify-content: center;
+}
+
+.about-photo {
+  width: 30rem; 
+  border-radius: 5%;
+}
